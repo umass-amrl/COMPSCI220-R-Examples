@@ -1,2 +1,3 @@
 # COMPSCI220-R-Examples
-CompSci 220 R Public Examples
+Public examples for COMPSCI220-R. These are a collection of working examples 
+from a variety of sources, including discussions.
