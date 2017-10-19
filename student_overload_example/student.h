@@ -8,10 +8,7 @@ struct Student {
 
   Student(const string& name,
           const int& id,
-          const float& grade) :
-          name(name),
-          id(id),
-          grade(grade) {}
+          const float& grade);
 
   bool operator==(const Student& student);
 

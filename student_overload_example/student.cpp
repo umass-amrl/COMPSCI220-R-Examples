@@ -1,6 +1,13 @@
 #include "student.h"
 using std::string;
 
+Student::Student(const string& name,
+                 const int& id,
+                 const float& grade) :
+  name(name),
+  id(id),
+  grade(grade) {}
+
 bool Student::operator==(const Student& student) {
 return id == student.id;
 }
